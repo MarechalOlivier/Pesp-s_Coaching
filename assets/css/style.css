@@ -220,14 +220,17 @@ footer {
     padding-top: 3%;
     position: relative;
     text-align: center;
-    width: 20%;
+    width: 15%;
     border: 1px solid #3BD8C5;
+    padding:2%;
 }
 
 #testimonials .testimonial img{
     position: absolute;
-    left: 35%;
-    top: -10%; 
+    right: 36%;
+    top: -16%;
+    transform: translate(-16%, 36%);
+
 }
 
 
