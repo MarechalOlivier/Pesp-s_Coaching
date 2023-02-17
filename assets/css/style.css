@@ -37,7 +37,7 @@ h3,h4{margin: 0;
 nav ul {
     display: flex;
     list-style: none;
-    
+  
     
 }
 
@@ -69,6 +69,7 @@ main a:not(:first-child) {
 footer {
     background-color: rgb(216, 216, 216);
 }
+
 
 .line{
     text-align: center;
@@ -244,6 +245,11 @@ footer {
     padding: 1% 7%;
 }
 
+#blogs .blogs:nth-child(2){
+    border-bottom: 2px solid #3BD8C5;
+    margin: 0% 10%;
+}
+
 
 footer .contacts{
     display: flex;
@@ -294,3 +300,5 @@ footer .contacts ul{
 footer .mention ul li:not(:first-child){
     border-left: 1px solid black;
 }
+
+
