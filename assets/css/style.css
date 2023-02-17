@@ -1,0 +1,296 @@
+@font-face {
+    font-family: "Roboto Regular";
+    src: url(/assets/fonts/Roboto/Roboto-Regular.ttf);
+} 
+
+@font-face {
+    font-family: "Roboto Bold";
+    src: url(/assets/fonts/Roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Light";
+    src: url(/assets/fonts/Roboto/Roboto-Light.ttf);
+} 
+
+body {
+    font-family: "Roboto Regular";
+    margin: 0;
+}
+
+
+header {
+    font-family: "Roboto Bold";
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header img{
+    width: 4%;
+}
+
+h3,h4{margin: 0;
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    
+    
+}
+
+nav ul li{
+    padding: 0 20px;
+    
+}
+
+nav ul li:not(:first-child){
+    border-left: 1px solid black;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+main a:not(:first-child) {
+    display: inline-block;
+    border: 1px solid #FF4676;
+    text-decoration: none;
+    color: #FF4676;
+    font-family: "Roboto Bold";
+    border-radius: 5px;
+    padding: 0.5rem;
+
+}
+
+footer {
+    background-color: rgb(216, 216, 216);
+}
+
+.line{
+    text-align: center;
+    margin: 2% 0%;
+}
+
+.titleh2{
+    text-align: center;
+    line-height: 1rem;
+    margin-bottom: 3%;
+}
+
+#banner{
+    
+    background-image: url(/assets/img/photo-1556139943-4bdca53adf1e\ 1.jpg);
+    background-size: cover;
+    height: 45vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    
+}
+
+
+#banner h1{
+    font-family: "Roboto Bold";
+    font-size: 4rem;
+    margin: 2% 30%;
+}
+
+#banner a{
+    
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    background-color:#FF4676 ;
+    text-decoration: none;
+}
+
+#approche{
+    margin-top: 3rem;
+}
+
+#approche .approche{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    margin-top: 3%;
+    
+}
+
+#approche .approches{
+    font-family: "Roboto Light";
+}
+
+#methode .titleh2{
+    margin-bottom: 5%;
+
+}
+#methode{
+    width: 50%;
+    margin: 2% auto;
+}
+
+#methode .methodes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#methode .methode{
+    text-align: center;
+    width: 35%;
+}
+
+#methode .titleh2 p{
+    margin-bottom: 10%;
+    margin: 1%;
+    
+}
+
+
+#accompagnement .accompagnement{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+    width: 80%;
+    margin: 0% auto;
+     
+}
+
+#accompagnement .accompagnements{
+    position: relative;
+    text-align: center;
+    width: 12%;
+}
+
+#accompagnement .accompagnements h3{
+    font-family: "Roboto Bold";
+    position: relative;
+    z-index: 1;
+   font-size: 1.5rem;
+}
+
+
+#blue {
+    position: absolute;
+    height: 1rem;
+    top: 20%;
+    color: rgb(153, 200, 231) ;
+    background-color: rgb(153, 200, 231);
+    width: 100%;
+    
+}
+
+
+
+
+#yellow {
+    position: absolute;
+    height: 1rem;
+    top: 20%;
+    color: rgb(238, 224, 94) ;
+    background-color: rgb(238, 224, 94);
+    width: 100%;
+    
+}
+#violet {
+    position: absolute;
+    height: 1rem;
+    top: 20%;
+    color: rgb(208, 143, 228) ;
+    background-color: rgb(208, 143, 228);
+    width: 100%;
+
+}
+
+#testimonials .testimonials{
+    display: flex;
+    justify-content: space-around;
+}
+
+#testimonials .testimonial{
+    text-align: center;
+    width: 20%;
+    border: 1px solid #3BD8C5;
+}
+
+
+#blogs {
+    margin-top: 3%;
+}
+
+#blogs .blog{
+    width: 50%;
+    font-family: "Roboto Light";
+
+}
+
+#blogs .blogs{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    padding: 3%;
+    
+}
+
+#blogs .blog a{
+    padding: 1% 7%;
+}
+
+
+footer .contacts{
+    display: flex;
+    justify-content: center;
+   
+        
+}
+
+
+footer .contact{
+    border-left: 1px solid black;
+    margin-left: 3%;
+    padding-left: 3%;
+    margin-top: 2%;
+    width: 20%;
+    list-style: none;
+    
+}
+
+
+footer .footer-i{
+  margin: auto 0%;
+}
+
+footer .mention ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 1%;
+    margin: 0;
+        
+}
+
+footer .mention ul li{
+    padding: 0 20px;
+    
+}
+
+footer .contacts ul li{
+    list-style: none;
+     
+}
+
+footer .contacts ul{
+    padding: 0;
+}
+
+footer .mention ul li:not(:first-child){
+    border-left: 1px solid black;
+}
