@@ -209,15 +209,25 @@ footer {
 
 }
 
+
 #testimonials .testimonials{
     display: flex;
     justify-content: space-around;
+    margin-top: 6%;
 }
 
 #testimonials .testimonial{
+    padding-top: 3%;
+    position: relative;
     text-align: center;
     width: 20%;
     border: 1px solid #3BD8C5;
+}
+
+#testimonials .testimonial img{
+    position: absolute;
+    left: 35%;
+    top: -10%; 
 }
 
 
