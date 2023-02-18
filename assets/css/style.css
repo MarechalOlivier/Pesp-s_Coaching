@@ -194,71 +194,47 @@ footer {
 }
 
 #accompagnement .accompagnements{
-    position: relative;
+    
     text-align: center;
-    width: 13%;
+    width: 18%;
 }
 
 #accompagnement .accompagnements h3{
+  
     font-family: "Roboto Bold";
-    position: relative;
-    z-index: 1;
-   font-size: 1.5rem;
-}
-
-
-#blue {
-    position: absolute;
-    height: 1rem;
-    top: 12%;
-    color: rgb(153, 200, 231) ;
-    background-color: rgb(153, 200, 231);
     width: 100%;
+    font-size: 1.5rem;
     
 }
 
-
-#yellow {
-    position: absolute;
-    height: 1rem;
-    top: 12%;
-    color: rgb(238, 224, 94) ;
-    background-color: rgb(238, 224, 94);
-    width: 100%;
-    
+#blue{
+    background: linear-gradient(to bottom, transparent 80%, rgb(153, 200, 231) 20%);
 }
-#violet {
-    position: absolute;
-    height: 1rem;
-    top: 12%;
-    color: rgb(208, 143, 228) ;
-    background-color: rgb(208, 143, 228);
-    width: 100%;
-
+#yellow{
+    background: linear-gradient(to bottom, transparent 80%, rgb(238, 224, 94) 20%);
+}
+#violet{
+    background: linear-gradient(to bottom, transparent 80%, rgb(208, 143, 228) 20%);
 }
 
 
 #testimonials .testimonials{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-top: 6%;
 }
 
 #testimonials .testimonial{
-    padding-top: 3%;
-    position: relative;
     text-align: center;
-    width: 15%;
+    width: 18%;
     border: 1px solid #3BD8C5;
-    padding:2%;
+    padding:0.5rem 1rem;
+    
 }
 
 #testimonials .testimonial img{
-    position: absolute;
-    right: 36%;
-    top: -16%;
-    transform: translate(-16%, 36%);
 
+    
 }
 
 
